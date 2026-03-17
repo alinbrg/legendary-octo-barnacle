@@ -1,5 +1,54 @@
+@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+@font-face {
+    font-family: 'ALK Life';
+    src: url('../fonts/alk-life-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-life-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-life-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-life-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-life-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-life-webfont.svg#alk_liferegular') format('svg'); /* Legacy iOS */
+}
+@font-face{
+	font-family: 'font2';
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+	src: url('../fonts/BitcountGridDoubleInk-VariableFont_CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2,slnt,wght.ttf');
+}
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto 50px;
+	padding: 0 15px;
+}
+ul{
+	list-style: none;
+}
+.about h1{
+	font-family: "ALK Rex Bold", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+.contact li{
+	 font-family: 'ALK Life';
+}
+.contact h2{
+	font-family: 'font2';
 }
